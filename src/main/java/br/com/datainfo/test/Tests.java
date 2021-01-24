@@ -1,5 +1,5 @@
 package br.com.datainfo.test;
-
+/*
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,29 +38,8 @@ public class Tests {
 		System.out.println(erasmo);
 		service.salvar(erasmo);
 		System.out.println(erasmo);
-		/*
-		List<Telefone> robertFones = new ArrayList<>();
-		Telefone robertCell1 = new Telefone();
-		robertCell1.setDdd(81);
-		robertCell1.setNumero("777338619");
-		robertCell1.setTipo("Movel");
-		robertFones.add(robertCell1);
-		Telefone robertCell2 = new Telefone();
-		robertCell2.setDdd(81);
-		robertCell2.setNumero("887998619");
-		robertCell2.setTipo("Residencial");
-		robertFones.add(robertCell2);
-		Usuario robert = new Usuario();
-		robert.setEmail("robert@gmail.com");
-		robert.setNome("Robert");
-		robert.setSenha("12345");
-		robert.setTelefones(robertFones);
-		robertCell1.setUsuario(robert);
-		erasmoCell2.setUsuario(robert);
-		System.out.println(robert);
-		service.salvar(robert);
-		System.out.println(robert);
-		*/
+		
+		
 	}
 
 	@Ignore
@@ -114,3 +93,4 @@ public class Tests {
 	}
 
 }
+*/
