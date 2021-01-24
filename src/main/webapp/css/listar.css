@@ -1,0 +1,105 @@
+.dados{
+    position: absolute;
+    width: 800px;
+
+  left: 30px;
+}
+
+button[type="button"]{
+    position: absolute;
+    padding: 10px 15px;
+    border: none;
+    background-color: #dddddd;
+    color: #52432F;
+    border-radius: 5px;
+    left: 110px;
+}
+button[type="submit"]{
+    position: absolute;
+    padding: 10px 15px;
+    border: none;
+    background-color: #dddddd;
+    color: #52432F;
+    border-radius: 5px;
+    left: 120px;
+}
+
+#txtDesc{
+    position: absolute;
+    height: 50px;
+    border-radius: 7px;
+    width: 790px;
+}
+.maior{
+    position: absolute;
+    top: 75px;
+    border-top: 1px solid #52432F;
+    padding: 5px;
+    width: 790px;
+    left: 220px;
+}
+.menor{
+    position: absolute;
+    top: 50px;
+    width: 800px;
+    left: 220px;
+}
+.divtabela{
+position: relative;
+width: 800px;
+
+ }
+ #tabela{
+     position: relative;
+     width: 800px;
+ }
+#tabela tbody tr:nth-child(2n){background-color: #ddd;}
+#tabela tbody tr td:nth-child(1){width: 200px;}
+#tabela tbody tr td:nth-child(2){width: 150px;}
+#tabela tbody tr td:nth-child(3){width: 200px;}
+#tabela tbody tr td:nth-child(4){width: 50px;}
+#tabela tbody tr td:nth-child(5){width: 80px;}
+#tabela tbody tr td:nth-child(6){width: 50px;}
+
+.botao{
+    position: relative;
+    top:270px;
+    left:600px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #ddd;
+    color: #52432F;
+}
+#txtValor,#txtDesconto,#txtQtd{
+  top: 160px;
+}
+
+#txtValor{
+    position: absolute;
+    left: 300px;
+
+}
+#txtDesconto{
+    position: absolute;
+
+    left: 585px;
+}
+
+#txtQtd{
+    position: absolute;
+
+    left: 4px;
+}
+
+#tabela th {
+    background-color:  	#00008B;
+    color: white;
+}
+#idNome{
+  width: 770px;
+
+}
+#idQtd, #idValor, #idDesconto{
+  width: 190px;
+
+}

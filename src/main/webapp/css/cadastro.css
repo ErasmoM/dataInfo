@@ -1,0 +1,102 @@
+
+.containerCadastro{
+    padding: 40px 10px;
+    position: absolute;
+    width: 285px;
+    top: 400px;
+    left: 660px;
+    transform:  translate(-50%,-50%);
+    border: solid 1px #52432F;
+}
+
+
+.tabela{
+    padding: 400px 100px;
+    position: absolute;
+    width: 1000px;
+    top: 100px;
+    left: 660px;
+    transform:  translate(-50%,-50%);
+    border: solid 1px #52432F;
+
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+.titulo{
+   position: relative;
+   text-align: center;
+   font-size: 16pt;
+   font-weight: bold;
+   color: #52432F;
+
+}
+
+form > .input-group{
+    margin: 20px 0;
+    position: relative;
+}
+.input-group > .form-control{
+    padding: 10px 0;
+    width: 280px;
+    border: solid 1px rgba(0, 0, 0, 0.16);
+    margin-bottom: 4px;
+}
+.input-group > label{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    font-size: 12pt;
+    color: #52432F;
+    margin-bottom: 5px;
+}
+
+select{
+    font-size: 12pt;
+    color: #52432F;
+}
+
+#tipo {
+    top: -5px;
+}
+
+.input-group > label#uf{
+    position: absolute;
+    top: -18px;
+}
+
+#bt{
+    position: absolute;
+    padding: 10px 15px;
+    border: none;
+    background-color: #dddddd;
+    color: #52432F;
+    border-radius: 5px;
+    left: 120px;
+}
+
+#btCadastrar{
+    position: absolute;
+    padding: 10px 15px;
+    border: none;
+    background-color: #dddddd;
+    color: #52432F;
+    border-radius: 5px;
+    left: 180px;
+}
+
+ #btLogar{
+    position: absolute;
+    padding: 10px 15px;
+    border: none;
+    background-color: #dddddd;
+    color: #52432F;
+    width: 100px;
+    border-radius: 5px;
+    right: 180px;
+}
